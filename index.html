@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <img id="logo" src="logo.png">
+    <h2>Résultats :</h2>
+    <div class="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
+
+    <div class="buttons">
+        <!-- Remplacez le texte par des emojis -->
+        <button onclick="voter('nul')">😕</button>
+        <button onclick="voter('moyen')">😐</button>
+        <button onclick="voter('bien')">😃</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

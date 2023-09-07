@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.buttons {
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+
+.chart-container {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+
+/* Styles pour les boutons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+
+.buttons button {
+    font-size: 80px;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+#logo {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
